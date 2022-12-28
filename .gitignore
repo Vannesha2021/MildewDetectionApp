@@ -1,5 +1,5 @@
-inputs/malaria_dataset/cell_images/test
-inputs/malaria_dataset/cell_images/train
+inputs/cherry-leaves/cherry-leaves/test
+inputs/cherry-leaves/cherry-leaves/train
 kaggle.json
 *.ipynb
 __pycache__/
