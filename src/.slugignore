@@ -1,5 +1,5 @@
-*.JPG/test
-*.JPG/train
-*.pkl/test
-*.pkl/train
-*.JPG/readme_images
+*test/.JPG
+*train/.JPG
+*test/.pkl
+*train/.pkl
+*readme_images/.JPG
