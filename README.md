@@ -48,6 +48,13 @@ Powdery Mildew Clf
 - The training data to fit the model come from Kaggle Website. This dataset contains about 4 thousand images. We have extracted a subset of 4208 images from this dataset and saved it to kaggle dataset directory for quicker model training.
 Train data - target: healthy or not; features: all images. The client provided the data through Kaggle under an NDA (non-disclosure agreement), therefore the data should only be shared with professionals that are officially involved in the project.
 
+# Learning Methods
+The model training and evaluation were carried out using convolutional neural networks, this model was used 
+to predict leaf image classification over real-time data on the powdery mildew detection section of the Streamlit dashboard.
+
+# Model Output
+The total number of parameters in this model was 7,429,377 parameters.
+
 # Breakdown of Epics and User Stories
 
 1) Information gathering and data collection.
@@ -60,6 +67,8 @@ Train data - target: healthy or not; features: all images. The client provided t
 # Dashboard Design (Streamlit App User Interface)
 
 ## Page 1: Quick Project Summary
+
+<img src="/workspace/MildewDetectionApp/readme_images/project.summary.JPG">
 
 **General Information**
 
@@ -82,6 +91,12 @@ Train data - target: healthy or not; features: all images. The client provided t
 
 ## Page 2: Cells Visualizer
 
+<img src="/workspace/MildewDetectionApp/readme_images/ave.variability.JPG">
+
+<img src="/workspace/MildewDetectionApp/readme_images/difference.leaves.JPG">
+
+<img src="/workspace/MildewDetectionApp/readme_images/image.montage.JPG">
+
 This will answer business requirement 1:
 - Checkbox 1 - Difference between average and variability image
 - Checkbox 2 - Differences between average powdered mildew and healthy leaves
@@ -89,6 +104,11 @@ This will answer business requirement 1:
 
 
 ## Page 3: Malaria Detector
+
+<img src="/workspace/MildewDetectionApp/readme_images/page3.link.JPG">
+
+<img src="/workspace/MildewDetectionApp/readme_images/predictive.analysis.JPG">
+
 
 Business requirement 2 information
 
@@ -102,11 +122,19 @@ Business requirement 2 information
 
 
 ## Page 4: Project Hypothesis and Validation
+
+<img src="/workspace/MildewDetectionApp/readme_images/project.hypothesis.JPG">
+
 I suspect mildew infected leaves has cloudy residue on the leaf, typically the colour of the leaf, that can differentiate, from a healthy leaf.
 An Image Montage, shows that typically a infected leaf has white powder across or spotted the leaf.
 Average Image, Variability Image and Difference between averages studies didn't reveal any clear pattern to differentiate one to another.
 
 ## Page 5: ML Performance Metrics
+
+<img src="/workspace/MildewDetectionApp/readme_images/page5.frequencies.JPG">
+
+<img src="/workspace/MildewDetectionApp/readme_images/page5.performance.metrics.JPG">
+
 Label Frequencies for Train, Validation and Test Sets
 Model History - Accuracy and Losses
 Model evaluation result
