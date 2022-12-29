@@ -4,5 +4,6 @@ kaggle.json
 *.ipynb
 __pycache__/
 *.jpg
+*.JPG
 
 
