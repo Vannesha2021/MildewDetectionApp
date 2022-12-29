@@ -1,5 +1,5 @@
 # Dataset Content
-The dataset contains a total of 2104 images of leaves taken from cherry trees in the Farmy & Foods plantations. The leafs in the inages are either infected with powdered mildew or healthy leaves. 
+The dataset contains a total of 2104 images of leaves taken from cherry trees in the Farmy & Foods plantations. The leafs in the images are either infected with powdered mildew or healthy leaves. 
 
 # Business Requirements
 As a Data Analyst student from Code Institute, I was asked to develop an ML system that can instantly, using a leaf image, detect if a tree is healthy or has powdery mildew for an agricultural company. Their cherry plantations were showing powdery mildew, a fungal disease affecting a wide range of plants. They needed this ML system because they were spending too much time manually inspecting each tree.
@@ -68,7 +68,7 @@ The total number of parameters in this model was 7,429,377 parameters.
 
 ## Page 1: Quick Project Summary
 
-<img src="/workspace/MildewDetectionApp/readme_images/project.summary.JPG">
+<img src="readme_images/project.summary.JPG">
 
 **General Information**
 
