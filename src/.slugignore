@@ -1,5 +1,2 @@
-*test/.JPG
-*train/.JPG
-*test/.pkl
-*train/.pkl
-*readme_images/.JPG
+inputs/cherry-leaves/cherry-leaves/test
+inputs/cherry-leaves/cherry-leaves/train
