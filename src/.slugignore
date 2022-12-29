@@ -1,0 +1,5 @@
+*.JPG/test
+*.JPG/train
+*.pkl/test
+*.pkl/train
+*.JPG/readme_images
