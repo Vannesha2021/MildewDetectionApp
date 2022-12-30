@@ -2,8 +2,6 @@ inputs/cherry-leaves/cherry-leaves/test/healthy
 inputs/cherry-leaves/cherry-leaves/test/powdery_mildew
 inputs/cherry-leaves/cherry-leaves/train/healthy
 inputs/cherry-leaves/cherry-leaves/train/powdery_mildew
-inputs/cherry-leaves/cherry-leaves/validation_slugignore_healthy
-inputs/cherry-leaves/cherry-leaves/validation_slugignore_mildew
 kaggle.json
 *.ipynb
 __pycache__/
