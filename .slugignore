@@ -5,5 +5,3 @@ inputs/cherry-leaves/cherry-leaves/train/powdery_mildew
 kaggle.json
 *.ipynb
 __pycache__/
-*.jpg
-*.JPG
